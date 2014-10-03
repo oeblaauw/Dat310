@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01.okt.2014, 13:49:49
+    Author     : Øyvind
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+table{
+    padding: 10px 5px 10px 5px;
+
+}
+/*
+    Button styling source: http://cssdemos.tupence.co.uk/button-styling.htm
+*/
+#submit {
+    cursor:pointer; 
+    padding:5px 25px; 
+    background:#007777; 
+    border:1px solid #006666; 
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+    color:#f3f3f3;
+    font-size:1.1em;
+    text-align: center;
+    width: 100%;
+}
+#submit:hover, #submit:focus {
+    background-color :#0099ff;  
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+.error {
+    color: #FF0000;
+    font-size: small;
+}
